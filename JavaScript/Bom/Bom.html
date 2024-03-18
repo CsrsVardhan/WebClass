@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            color: red;
+            border: none;
+        }
+        button:hover{
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            filter: drop-shadow(7px 7px 5px red);
+        }
+    </style>
+</head>
+<body>
+    <button onclick="disFun()">On Click Event</button><br><br>
+    <button onclick="openFun()">Navigate from one page to Another</button><br><br>
+    <button onclick="closeFun()">Click to close</button><br><br>
+    <script src="./BOM.js"></script>
+    <button onclick="printScreen()">Print</button><br><br>
+    <!-- <button onclick="navnex()">Next</button><br><br>
+    <button onclick="navbef()">Back</button><br><br>
+    <button onclick="jumnex()">SkipNext</button><br><br>
+    <button onclick="jumbef()">SkipBack</button><br><br> -->
+    <button onclick="history.forward()">Next</button><br><br>
+    <button onclick="history.back()">Back</button><br><br>
+    <button onclick="history.go(3)">SkipNext</button><br><br>
+    <button onclick="history.go(-2)">SkipBack</button><br><br>
+    <button onclick="navigate()">goto(location.href)</button><br><br>
+    <!-- <button onclick="refresh()">Reload</button><br><br> -->
+    <button onclick="location.reload()">Reload</button><br><br>
+    <button onclick="Assign()">Assign</button><br><br>
+    <button onclick="Replace()">Replace</button><br><br>
+</body>
+</html>
