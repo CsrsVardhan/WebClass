@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Using Table</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Tour</legend>
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input type="text" id="name"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email id:</label></td>
+                    <td><input type="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" id="password"></td>
+                </tr>
+                <tr>
+                    <td><label for="phno">Ph.No:</label></td>
+                    <td><input type="tel"  id="phno"></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Select Age:</label></td>
+                    <td><input type="number" id="age"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td><input type="radio" id="male" name="gender">
+                        <label for="male">Male</label>
+                        <input type="radio" id="female" name="gender">
+                        <label for="female">Female</label>
+                        <input type="radio" id="others" name="gender">
+                        <label for="others">Others</label></td>
+                </tr>
+                <tr>
+                    <td><label for="places">places:</label></td>
+                    <td><input type="checkbox" id="goa">
+                        <label for="goa">Goa</label>
+                
+                        <input type="checkbox" id="ladhak">
+                        <label for="ladhak">Ladhak</label>
+                
+                        <input type="checkbox" id="kanyakumari">
+                        <label for="kanyakumari">kanyakumari</label>
+                
+                        <input type="checkbox" id="Jammu">
+                        <label for="Jammu">Jammu</label>
+                
+                        <input type="checkbox" id="Maldives">
+                        <label for="Maldives">Maldives</label></td>
+                </tr>
+                <tr>
+                    <td><label for="datetime">DateAndTime:</label></td>
+                    <td><input type="datetime-local" id="datetime"></td>
+                </tr>
+                <tr>
+                    <td><label for="date">Date:</label></td>
+                    <td><input type="date" id="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address:</label></td>
+                    <td> <textarea  id="address" cols="30" rows="10"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="country">Country:</label></td>
+                    <td><select id="country">
+                        <option>India</option>
+                        <option>Usa</option>
+                        <option>Australia</option>
+                        <option>Srilanka</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="select">Select the File</label></td>
+                    <td><input type="file" id="select"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Enjoy Pandago"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>

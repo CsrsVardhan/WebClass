@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="website icon"  href="https://cdn.iconscout.com/icon/premium/png-512-thumb/fill-up-form-2133614-1795238.png?f=webp&w=256">
+</head>
+<body>
+    <!-- form tag is used to create/collect the data from a user -->
+    <!-- label tag is used to provide the label for the input box -->
+    <!-- note: the for tag should be used in the label only -->
+    <!-- in label tag for is an attribute used to link the label and the input box -->
+    <!-- input tag is used to collect or enter the data of a user -->
+    <!-- In input tag we use attributes called as type and id -->
+    <!-- the type attribute is used to provide extra validation like which type of information we should take from the user -->
+    <!-- the value attribute is used to change the name on the submit button -->
+    <!-- <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name"><br><br>
+        <label for="email">Email id:</label>
+        <input type="email" id="email"><br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password"><br><br>
+        <input type="submit" value="Sign IN">
+    </form> -->
+
+    <!-- Form tag attributes: 1.action,2.target,3.autocomplete,4.novalidate -->
+
+    <!-- Input tag attributes: 1.placeholder, 2.autofocus, 3.required, 4.checked, 5.maxlength, 6.minlength, 7.readonly, 8.disabled 9.value-->
+
+    <!-- 
+    1.placeholder: it is used to create text inside the input box. 
+    2.autofocus: it is used to focus the input box.
+    3.required: it is used to make the input box as mandatiory.
+    4.checked: it is used to select one option in defaultly in radiobutton and checkbox.
+    5.maxlength: it is used to fix the max length of digits in the number.
+    6.minlength: it is used to fix the min length of digits in the number.
+    7.readonly: it is used make the input box for reading purpose.
+    8.disabled: it will not allow any user to fill the particular input box.
+    -->
+
+    <h1>Tour Form</h1>
+    <!-- pattern pattern="[0-9]+"-->
+    <form  action="" target="_self" autocomplete="off">
+        <fieldset>
+            <fieldset>
+            <legend><b>Tour Form</b></legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" autofocus required><br><br>
+
+        <label for="email">Email id:</label>
+        <input type="email" id="email"name="email" placeholder="Enter your mail" disabled><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password"name="password" placeholder="Enter the password" required><br><br>
+
+        <label for="phno">Ph.No:</label>
+        <input type="tel"  id="phno"name="phno" placeholder="Enter the phno" required pattern="[0-9]+" maxlength="10"><br><br>
+
+        <label for="age">Select Age:</label>
+        <input type="number" id="age"name="age" placeholder="Select age" readonly><br><br> 
+
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="others" name="gender" value="others">
+        <label for="others">Others</label><br><br>
+
+        <label for="places">places:</label>
+        <input type="checkbox" id="goa"name="places" value="goa" checked>
+        <label for="goa">Goa</label>
+
+        <input type="checkbox" id="ladhak"name="places" value="ladhak">
+        <label for="ladhak">Ladhak</label>
+
+        <input type="checkbox" id="kanyakumari"name="places" value="kanyakumari">
+        <label for="kanyakumari">kanyakumari</label>
+
+        <input type="checkbox" id="Jammu"name="places" value="Jammu">
+        <label for="Jammu">Jammu</label>
+
+        <input type="checkbox" id="Maldives"name="places" value="Maldives">
+        <label for="Maldives">Maldives</label><br><br>
+
+        <label for="datetime">DateAndTime:</label>
+        <input type="datetime-local" id="datetime" name="datetime"><br><br>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date"name="date"><br><br>
+
+        <label for="address">Address:</label>
+        <textarea  id="address" cols="30" rows="10"name="address"></textarea><br><br>
+
+        <label for="country">Country:</label>
+        <select id="country">
+            <option value="India">India</option>
+            <option value="Usa">Usa</option>
+            <option value="Australia">Australia</option>
+            <option value="Srilanka">Srilanka</option>
+        </select><br><br>
+        <!-- <button>submit</button> -->
+        <label for="select">Select the File</label>
+        <input type="file" id="select"><br><br>
+
+       <center><input type="reset" value="Enjoy Pandago"></center> 
+      
+    
+    </fieldset>
+    </fieldset>
+</form>
+
+</body>
+</html>

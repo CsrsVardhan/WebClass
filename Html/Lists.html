@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List</title>
+</head>
+<body>
+    <!-- ordered list-->
+     <!-- Here the ol means ordered list.-->
+     <!-- Here li means List Items.-->
+     <h1>Ordered List</h1>
+    <ol type="I" start="12" reversed>
+        <!-- Here type,start,reversed are attributes-->
+        <!-- Syntax for the type is: type="" (Note: there are defaultly five options 1.number default,2.UpperCase Alphabets,3.LowerCase alphabets,4.small Roman Numbers,5.Capital Roman Numbers.)-->
+        <!-- Syntax for the start is: start="" (note: the start values should be given as numbers only other wise it won't work.) -->
+        <!-- The reversed is used to reverse the order of the type. -->
+        <li>Boat</li>
+        <li>Jbl</li>
+        <li>Sony</li>
+        <li>Skull Candy</li>
+    </ol>
+    <h1>UnOrdered List</h1>
+    <ul type="circle">
+        <!-- For the unordered list we have three types 1.defaultly called as disc(Symbol is: .), 2.circle, 3.square.-->
+        <li>Boat</li>
+        <li>Jbl</li>
+        <li>Sony</li>
+        <li>Skull Candy</li>
+    </ul>
+    <h1>Description List / Defintion List</h1>
+
+    <!-- here the dl stands for description list -->
+    <!-- here the dt stands for description term -->
+    <!-- here the dd stands for description data -->
+    <!-- shortcut for create comment is ctrl+? -->
+    <dl>
+        <dt><b>Science</b></dt>
+        <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda et sed eum quidem voluptatum totam temporibus at necessitatibus alias quas maxime, sint sit! Consectetur labore ut, est non dicta incidunt?</dd>
+        <dt><b>Maths</b></dt>
+        <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque similique officiis perferendis corporis deserunt alias, distinctio illum laudantium architecto nesciunt doloremque rerum culpa sequi animi natus aliquam saepe tenetur! Totam exercitationem deleniti nobis ipsa earum dolores aliquam fugit sit consequuntur, rerum, omnis dolore dicta aperiam quod asperiores maxime odio autem!</dd>
+    </dl>
+
+    <h1>Nested List 1</h1>
+    <!-- combination of ordered list and unordered list -->
+    <!-- shortcut for creating list items is: type- li*no.of required (li*3) -->
+    <!-- shortcut for creating list items with content is: type- li*no.of required (li*3){enter content in here} -->
+    <ol>
+        <li>content1</li>
+        <li>content2</li>
+        <li>content3</li>
+        <ul type="disc">
+            <li>content4</li>
+            <li>content5</li>
+            <li>content6</li>
+        </ul>
+        <li>content7</li>
+    </ol>
+    <h1>Nested List 2</h1>
+    <ol>
+        <li>content1</li>
+        <ul type="disc">
+            <li>content2</li>
+            <li>content3</li>
+        </ul>
+        <li>content4</li>
+        <li>content5</li>
+        <ul type="disc">
+            <li>content6</li>
+            <ul type="disc">
+                <li>content7</li>
+            </ul>
+        </ul>
+    </ol>
+</body>
+</html>

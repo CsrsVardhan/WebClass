@@ -1,0 +1,5 @@
+open folder 
+next click on path 
+then enter cmd
+in the cmd --- type(code .)
+next click enter
