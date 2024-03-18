@@ -1,0 +1,35 @@
+let body = document.querySelector("body");
+let nav = document.createElement("nav");
+let header = document.createElement("header");
+let footer = document.createElement("footer");
+let p1 = document.createElement("p");
+let p2 = document.createElement("p");
+let p3 = document.createElement("p");
+p1.append(document.createTextNode("nav"));
+p2.append(document.createTextNode("header"));
+p3.append(document.createTextNode("footer"));
+nav.append(p1);
+header.append(p2);
+footer.append(p3);
+body.append(nav,header,footer);
+body.style.color="white";
+nav.style.backgroundColor="red";
+header.style.backgroundColor="green";
+footer.style.backgroundColor="blue";
+body.style.height="100vh";
+nav.style.height="20%";
+header.style.height="60%";
+footer.style.height="20%"
+body.style.textAlign="center"
+body.style.display="flex";
+body.style.flexDirection="column";
+body.style.justifyContent="center";
+nav.style.display="flex";
+nav.style.flexDirection="column";
+nav.style.justifyContent="center";
+header.style.display="flex";
+header.style.flexDirection="column";
+header.style.justifyContent="center";
+footer.style.display="flex";
+footer.style.flexDirection="column";
+footer.style.justifyContent="center";

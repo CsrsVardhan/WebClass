@@ -1,0 +1,59 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.card{
+    height: inherit;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    gap: 20px;
+}
+#card{
+    height:550px;
+    width:450px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    /* filter: blur(10px); */
+}
+#card:hover{
+    /* filter: blur(0px); */
+    /* filter: drop-shadow(8px 8px 5px black); */
+    box-shadow: 8px 8px 5px black;
+    transform: scale(1.01,1.01);
+}
+img{
+    height: 150px;
+    width: 160px;
+}
+button{
+    border:none;
+    height: 30px;
+    width: 100px;
+    background-color: rebeccapurple;
+    color: white;
+    border-radius: 20px;
+}
+button:hover{
+    box-shadow: 6px 6px 5px purple;
+}
+p{
+    font-size: 10px;
+}
+.honk {
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
