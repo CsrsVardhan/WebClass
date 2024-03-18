@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 1rem = 16px */
+/* h1 default size is 2rem=2*16px */
+/* div default size is 12px */
+/* 96px= 1 inch or 96px= 2.54cm*/
+
+/* px and rem */
+
+/* #hone{
+    font-size: 2rem;
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+}
+#htwo{
+    font-size: 32px;
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+} */
+
+/* em */
+
+/* #pone{
+    font-size: 1em;
+}
+#ptwo{
+    font-size: 16px;
+} */
+
+/* vh & vw */
+
+div{
+    height: 100vw;
+    width: 50vh;
+    border: 2px solid red;
+}
+
+/* percentage(%) */
+
+/* section{
+    width: 500px;
+    height: 500px;
+    border: 2px solid;
+}
+#aone{
+    height: 25%;
+    width: 25%;
+    background-color: powderblue;
+}
+#atwo{
+    height: 25%;
+    width: 25%;
+    background-color: red;
+}
+#athree{
+    height: 25%;
+    width: 25%;
+    background-color: green;
+}
+#afour{
+    height: 25%;
+    width: 25%;
+    background-color: yellow;
+} */

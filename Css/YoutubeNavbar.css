@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    /* height: 60px; */
+    height: 55px;
+    width: 100vw;
+    background-color: #fff;
+    display: flex;
+    position: fixed;
+}
+#logo{
+    position: relative;
+    flex-basis: 15%;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+}
+#barbtn{
+    background-color: #fff;
+    height: 35px;
+    width: 35px;
+    border:0px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 10px;
+}
+#barbtn:hover{
+    background-color: #dbd8d8;
+}
+#logoimg{
+    height: 75px;
+    width: 118px;
+    position: relative;
+    right: 3px;
+}
+#in{
+    position: absolute;
+    left:81%;
+    top:23%;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#search{
+    flex-basis: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    height:40px;
+    width: 555px;
+    border:0.1px solid rgb(206, 202, 202);
+    border-radius: 20px 0px 0px 20px;
+    position: relative;
+    right: 0px;
+    padding-left: 16px;
+}
+text:focus{
+    border:0.1px solid blue;
+}
+.text::placeholder{
+    font-size: 15.5px;
+    font-weight: 200;
+}
+#magbtn{
+    height: 40px;
+    width: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 17px;
+    background-color: white;
+    border:0.1px solid rgb(206, 202, 202);
+    border-radius: 0px 20px 20px 0px;
+}
+#magbtn:hover{
+    background-color: #f7f0f0;
+}
+#micbtn{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 38px;
+    width: 38px;
+    border:0px solid;
+    border-radius: 50%;
+    background-color: #f5f2f2;
+    position: relative;
+}
+#micbtn:hover{
+    background-color: #dbd8d8;
+}
+#procambel{
+    flex-basis: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+#cambtn{
+    background-color: #fff;
+    height: 37px;
+    width: 37px;
+    border-radius: 50%;
+    border:0px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 2px;
+}
+#cambtn:hover{
+    background-color: #e5e3e3;
+}
+#bellbtn{
+    background-color: #fff;
+    height: 37px;
+    width: 37px;
+    border-radius: 50%;
+    border:0px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 21px;
+}
+#bellbtn:hover{
+    background-color: #e5e3e3;
+}
+#profile{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    right: 27px;
+}
+#proimg{
+    height: inherit;
+    width: inherit;
+}
+

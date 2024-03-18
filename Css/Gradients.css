@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    /* border: 2px solid red; */
+
+    /* Linear-gradient */
+
+    /* background: linear-gradient(yellowgreen,tomato); */
+    /* background: linear-gradient(to bottom,yellowgreen,tomato); */
+    /* background: linear-gradient(to top,yellowgreen,tomato); */
+    /* background: linear-gradient(to right,yellowgreen,tomato); */
+    /* background: linear-gradient(to left,yellowgreen,tomato); */
+    /* background: linear-gradient(to top left,yellowgreen,tomato); */
+    /* background: linear-gradient(to bottom left,yellowgreen,tomato); */
+    /* background: linear-gradient(to bottom right,yellowgreen,tomato); */
+    /* background: linear-gradient(to top right,rgb(29, 179, 171),rgb(172, 24, 127),rgb(255, 165, 0)); */
+    /* background-image: linear-gradient(to top right,rgb(29, 179, 171),rgb(172, 24, 127),rgb(255, 165, 0)); */
+
+    /* repeating-Linear-gradient (% is compulsory)*/
+
+    
+    /* background-image: repeating-Linear-gradient(rgb(29, 179, 171),rgb(172, 24, 127) 5%,rgb(255, 165, 0) 10%);
+    background-image: repeating-Linear-gradient(to bottom,rgb(29, 179, 171),rgb(172, 24, 127) 5%,rgb(255, 165, 0) 10%);
+    background-image: repeating-Linear-gradient(to top,rgb(29, 179, 171),rgb(172, 24, 127) 5%,rgb(255, 165, 0) 10%);
+    background-image: repeating-Linear-gradient(to left,rgb(29, 179, 171),rgb(172, 24, 127) 5%,rgb(255, 165, 0) 10%);
+    background-image: repeating-Linear-gradient(to right,rgb(29, 179, 171),rgb(172, 24, 127) 5%,rgb(255, 165, 0) 10%);
+    background-image: repeating-Linear-gradient(to bottom right,rgb(29, 179, 171),rgb(172, 24, 127) 5%,rgb(255, 165, 0) 10%);
+    background-image: repeating-Linear-gradient(to bottom left,rgb(29, 179, 171),rgb(172, 24, 127) 5%,rgb(255, 165, 0) 10%);
+    background-image: repeating-Linear-gradient(to top left,rgb(29, 179, 171),rgb(172, 24, 127) 5%,rgb(255, 165, 0) 10%);
+    background-image: repeating-Linear-gradient(to top right,rgb(29, 179, 171),rgb(172, 24, 127) 5%,rgb(255, 165, 0) 10%); */
+
+    /* background: radial-gradient(rgb(158, 33, 106),rgb(9, 175, 73),rgb(60, 7, 158),hotpink,yellowgreen);
+    background: radial-gradient(ellipse,rgb(158, 33, 106),rgb(9, 175, 73),rgb(60, 7, 158),hotpink,yellowgreen);
+    background: radial-gradient(circle,rgb(158, 33, 106),rgb(9, 175, 73),rgb(60, 7, 158),hotpink,yellowgreen);
+    background: repeating-radial-gradient(ellipse,hotpink,yellowgreen 10%,red 15%,violet 20%); */
+
+    
+}
+
+div{
+    height: 400px;
+    width: 400px;
+    border: 2px solid;
+    border-radius: 50%;
+    /* background: radial-gradient(white,black 50%,red);
+    background: repeating-radial-gradient(white,black 5%,red 10%); */
+    
+    /* iconic gradient */
+
+    background-image: conic-gradient(red,blue,tan,teal);
+    background-image: conic-gradient(red 0% 20%,blue 20% 40%,tan 40% 60%,teal 60% 100%);
+    background-image: repeating-conic-gradient(red  0% 25%,black 25% 50%);
+    box-shadow: 0px 0px 100px red;
+    
+}
+div:hover{
+    box-shadow: 0px 0px 100px red;
+    background-image: repeating-conic-gradient(red 0% 20%,black 20% 30%);
+}

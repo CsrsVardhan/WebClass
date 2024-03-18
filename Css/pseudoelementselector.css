@@ -1,0 +1,36 @@
+p::first-letter{
+    color: red;
+    font-size: 70px;
+}
+
+p::first-line{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:whitesmoke;
+    background-color: black;
+}
+
+p::before{
+    color: blue;
+    content:"🎈Hello ";
+}
+
+p::after{
+    color:darkorange;
+    content:" Bye🔐";
+}
+ul>li::marker{
+    content:"📀";
+    color: chartreuse;
+}
+p::selection{
+
+    color:darkgoldenrod;
+    background-color:black;
+}
+input::placeholder{
+    color:white;
+    background-color: yellowgreen;
+}
+input{
+    color: red;
+}

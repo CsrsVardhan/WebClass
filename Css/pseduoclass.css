@@ -1,0 +1,81 @@
+/* the below color only works for unvisted links */
+
+/* a:link{
+    color:black;
+    background-color:blanchedalmond;
+} */
+
+/* a:active{
+    color: springgreen;
+} */
+
+/* hover seperately for different requirements*/
+
+/* button:hover{
+    color: white;
+    background-color: navy;
+}
+a:hover{
+    color:whitesmoke;
+    background-color: red;
+}
+h1:hover{
+    color: aqua;
+    background-color: black;
+} */
+
+/* hover if have same requirements */
+
+/* a:hover,h1:hover,button:hover{
+    color: wheat;
+    background-color: green;
+} */
+
+/* visited */
+
+/* a:visited{
+    color:lawngreen;
+} */
+
+/* focus */
+
+/* input:focus{
+    color: white;
+    background-color:tomato;
+} */
+
+/* first child */
+
+/* div>p:first-child{
+    color:navajowhite;
+    background-color: navy;
+} */
+
+/* last child */
+
+/* div>footer:last-child{
+    color: #fff;
+    background-color:red;
+} */
+
+/* nth child */
+
+/*  Note: we can give the values in the braces like(even),(odd),(number),(number-n). here even means it select the even child, odd means it select odd child,number means it will select that particular child,number-n(ex:3n) means it will select the that particular number multiple childs*/
+
+/* div>p:nth-child(4){
+    color: red;
+} */
+
+/* NOT() */
+
+/* or ul>li:not() or li:not() */
+
+/* ul li:not(.exclude){ 
+    color: yellowgreen;
+} */
+
+/* Checked */
+
+input:checked+label{
+    color: sandybrown;
+}

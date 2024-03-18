@@ -1,0 +1,70 @@
+. Three Ways to add CSS,they are:
+1. In-Line CSS
+2. Internal CSS
+3. External CSS
+
+. There are totally 5 types of selectors in general , they are:
+
+1. Simple selectors
+2. Combinator selectors
+3. Pseduo-class selectors
+4. Pseudo-element selectors
+5. Attribute selectors
+
+? 1. Simple selectors
+
+There are 5 types of simple selectors,they are:
+
+a) id(*)
+b) class(.)
+c) tagname
+d) grouping(,)
+e) universal selector(*)
+
+? 2. Combinator selectors
+
+There are 4 types of combinator selectors,they are:
+
+a) Decendent selector(space)
+b) Child selector(>)
+c) Adjecent sibling selector(+)
+d) General sibling selector(~)
+
+? 3. Pseudo-class selectors
+
+There are 10 types of pseudo-class selectors and the symbol is(:),and the types are:
+
+a) :link()
+b) :visited()
+c) :hover()
+d) :active()
+e) :focus()
+f) :first-child()
+g) :last-child()
+h) :nth-child()
+i) :not(mention id or class in the parenthesis)
+j) checked()
+
+? 4. Pseudo-element selectors
+
+There are 7 types of pseudo-element selectors and the symbol is (::),and the types are:
+
+a) ::first-letter
+b) ::first-Line
+c) ::before
+d) ::after
+e) ::marker
+f) ::selection
+g) ::placeholder
+
+? 5. Attribute selectors
+
+There are 7 types of attribute selectors are there,they are
+
+a) [attr]
+b) [attr  ="value"]
+c) [attr ~="value"]
+d) [attr |="value"]
+e) [attr ^="value"]
+f) [attr $="value"]
+g) [attr *="value"]

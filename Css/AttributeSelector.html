@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AttributeSelector</title>
+    <link rel="stylesheet" href="./AttributeSelector.css">
+</head>
+<body>
+
+    <!-- [arr], tagname[arr], [arr="value"], [arr~"value"], [arr|="value"], [arr^="value"], [arr$="value"], [arr*="value"]  -->
+
+    <h2>Attribute selectors</h2>
+
+    <!-- CASE:0 [arr]-->
+
+    <!-- <input type="text"><br><br>
+    <input type="email"><br><br>
+    <input type="password"><br><br>
+
+   <ul type="square">
+       <li>one</li>
+       <li>two</li>
+       <li>three</li>
+   </ul> -->
+
+    <!-- CASE:1 tagname[arr]-->
+
+    <!-- <input type=""><br><br>
+    <input type=""><br><br>
+    <input><br><br> -->
+
+     <!-- CASE:2 tagname[arr="value"]-->
+
+     <!-- <input type="text"><br><br>
+     <input type="email"><br><br>
+     <input type="password"><br><br>
+
+    <ul type="square">
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+    </ul> -->
+
+    <!-- CASE:3 [arr~="value"]-->
+
+    <!-- p*5{content}.classname -->
+
+    <!-- <p class="hello">hello</p>
+    <p class="hello one">hello one</p>
+    <p class=" helloone">&nbsp;helloone</p>
+    <p class=" hello one">&nbsp;hello one</p>
+    <p class="helloone">helloone</p> -->
+
+    <!-- CASE:4 [arr|="value"]-->
+
+    <!-- <p class="hello">hello</p>
+    <p class="hello one">hello one</p>
+    <p class=" helloone">&nbsp;helloone</p>
+    <p class=" hello-one">&nbsp;hello-one</p>
+    <p class="hello-one">hello-one</p>
+    <p class="-hello-one">-hello-one</p>
+    <p class="-helloone">-helloone</p>
+    <p class=" hello one">&nbsp;hello one</p>
+    <p class="helloone">helloone</p> -->
+
+    <!-- CASE:5 [arr^="value"]-->
+
+    <!-- <p class="hello one">hello</p>
+    <p class="helloone">hello</p>
+    <p class=" helloone">hello</p>
+    <p class="one hello">hello</p>
+    <p class="hello one">hello</p> -->
+
+    
+    <!-- CASE:6 [arr$="value"]-->
+
+    <!-- <p class="hello one">hello</p>
+    <p class="onehello">hello</p>
+    <p class=" helloone">hello</p>
+    <p class="one hello">hello</p>
+    <p class="hello one">hello</p> -->
+
+    <!-- CASE:7 [arr*="value"]-->
+
+    <p class="hello">hello</p>
+    <p class="hello one">hello one</p>
+    <p class="onehello">onehello</p>
+    <p class="onehelloone">onehelloone</p>
+    <p class="helo">hello</p>
+    <p class="one hello">one hello</p>
+
+</body>
+</html>

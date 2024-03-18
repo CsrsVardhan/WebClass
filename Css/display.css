@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* h1{
+    border: 2px solid;
+    display: inline;
+} */
+/* span{
+    border: 3px solid blue;
+    display: block;
+} */
+
+/* margin and padding can be applied for all the sides of a block-level element */
+/* margin and padding can be applied for only left and right of an inline-level element */
+/* block-level element will take height and width, were for in-line element will not take heigth and width */
+
+/* p>span{
+    margin: 10px;
+    padding: 10px;
+    display: inline;
+    border: 3px solid;
+} */
+/* p{
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid;
+} */
+
+/* #fi{
+    display: inline-block;
+}
+#se{
+    height: 150px;
+    width: 300px;
+} */
+
+#one{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    display: inline-block;
+    background-color: red;
+}
+#two{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    display: inline-block;
+    background-color: green;
+    /* display: none; */
+    visibility: hidden;
+}
+
+/*  Display: none; means the next block will take its place. 
+    But visibility:hidden; means it be present there but the next block will not occupy the space*/
+
+    #three{
+    height: 200px;
+    width: 200px;
+    border: 2px solid;
+    display: inline-block;
+    background-color: greenyellow;
+}

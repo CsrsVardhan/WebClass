@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* in grid we have grid-track, grid-lines, grid-cell */
+section{
+    height: 600px;
+    width: 600px;
+    background-color: steelblue;
+    display: grid;
+
+    /* grid-template-columns: 250px 180px 200px;
+    grid-template-rows: 250px 100px 100px; */
+
+    /* if we to adjust the grids in equally and donot want to exceed the parent or grid-container we have to mention the values like auto in the grid-templete-column or  grid-templete-row. */
+
+    /* grid-template-columns: auto auto auto;
+    grid-template-rows: auto 50px auto auto; */
+
+    /* fr stands for fragments. (It is used as or it will be used like the flex basis in the display-flex properties) just to give some distance or particular space for the grid cell. */
+
+    /* grid-template-columns: 2fr 5fr 4fr 2fr; */
+    /* grid-template-rows: 1fr 3fr 2fr; */
+    /* grid-template-columns: repeat(3,100px);
+    grid-template-rows:repeat(4,100px); */
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows:repeat(4,auto);
+    /* column-gap: 10px;
+    row-gap: 40px; */
+    /* grid-gap: 20px 5px; */
+    /* gap: 10px 40px; */
+    /* gap: 20px; */
+}
+article{
+    /* If we wat to fit the items inside the grid donot mention the height and width,so that it will be adjust inside the grid only. */
+
+    /* height: 210px;
+    width: 210px; */
+    background-color: antiquewhite;
+    border: 0.5px solid;
+}
+#one{
+    /* grid-row-start: 1;
+    grid-row-end:5; */
+    /* grid-row:1/5; */
+}
+#two{
+    /* grid-column-start: 2;
+    grid-column-end: 5; */
+    /* grid-column:2/4; */
+}
+#three{
+    /* grid-area is the shorthand property for grid-column and grid-row. the syntax is follows like grid-area:grid-row-start/grid-column-start/grid-row-end/grid-column-end */
+    /* grid-area: 2/2/4/5; */
+}

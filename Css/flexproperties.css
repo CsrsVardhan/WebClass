@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* If we try to add the content while using flex property and try to make outside of the parent but it will not go outside */
+
+/* the values we can give for the justify-content are: flex-start,start,flex-end,end,center,space-between,space-around,space-evenly */
+/* the values we can give for the align-items are:flex-start,start,flex-end,end,center */
+
+section{
+    height: 700px;
+    /* width: 700px; */
+    width: 100vw;
+    background-color: rgb(232, 114, 12);
+    display: flex;
+    /* default value for flex-direction is row */
+    /* flex-direction: row; */
+    /* flex-direction: column;   */
+    /* flex-direction: row-reverse;   */
+    /* flex-direction: column-reverse; */
+    /* the default value of flex-wrap is nowrap */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap-reverse; */
+    /* flex-wrap: wrap; */
+    /* justify-content: flex-start; */
+    /* justify-content: start; */
+    /* justify-content: flex-end; */
+    /* justify-content: end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+    /* align-items: flex-start; */
+    /* align-items: start; */
+    /* align-items: flex-end; */
+    /* align-items: end; */
+    /* align-items: center; */
+    /* row-gap: 20px; */
+    /* column-gap: 20px; */
+    /* gap: 20px; */
+}
+div{
+    height: 200px;
+    /* width: 200px; */
+    /* border: 2px solid black; */
+    font-size: 35px;
+    color: aliceblue;
+    text-align: center;
+}
+#green{
+    background-color: rgb(10, 235, 14);
+    /* flex-basis: 50px; */
+    flex-basis: 20%;
+}
+#lightcyan{
+    background-color: rgb(10, 233, 233);
+    /* flex-basis: 70px; */
+    flex-basis:50%;
+}
+#yellow{
+    background-color: rgb(236, 236, 11);
+    /* flex-basis: 50px; */
+    flex-basis: 30%;
+}

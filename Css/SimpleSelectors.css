@@ -1,0 +1,49 @@
+/* Id selector */
+
+/* #head{
+
+    color: yellowgreen;
+}
+#par{
+
+    color: tomato;
+}
+#head1{
+
+    color: springgreen;
+} */
+
+/* Class selector */
+
+/* .class{
+
+    color:royalblue
+}
+.clap{
+
+    background-color: blanchedalmond;
+} */
+
+/* tagname selector */
+
+/* p{
+    color: darkgoldenrod;
+} */
+
+/* grouping selector */
+
+/* #para,.pre{
+
+    color: cyan;
+}
+.pre{
+    background-color:darkgreen;
+} */
+
+/* universal selector */
+
+*{
+    color: white;
+    background-color: black;
+}
+

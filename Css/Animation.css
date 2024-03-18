@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    background-color: rgb(156, 59, 59);
+    color: whitesmoke;
+    animation-name: hello;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-delay: 1s;
+    animation-iteration-count: 2;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    animation-direction:reverse;
+    animation-direction:alternate;
+    animation-direction:alternate-reverse;
+}
+@keyframes hello{
+    from{
+        background-color: rgb(156, 59, 59);
+        font-size: 300px;
+        transform: rotate(0deg);
+        border-radius: 0%;
+    }to{
+        background-color: lightgreen;
+        font-size: 70px;
+        transform: rotate(45deg);
+        border-radius: 50%;
+    }
+} */
+
+
+/* div{
+    height: 300px;
+    width: 300px;
+    border: 15px solid #efefef;
+    border-radius: 50%;
+    animation-name:load;
+    animation-duration: 4s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+@keyframes load{
+    from{
+        border-top-color: #d33617;
+        rotate: 0deg;
+    }to{
+        border-top-style: dotted;
+        rotate: 360deg;
+    }
+} */
+
+
+/* section{
+    height: 40px;
+    width: 100vw;
+    background-color: #efefef;
+}
+aside{
+    height: inherit;
+    animation: loading 4s linear 1s 2 normal;
+}
+h1{
+    text-align: center;
+}
+@keyframes loading{
+    
+    from{
+        width: 0;
+        background-color: rgb(167, 51, 119);
+    }
+    to{
+        width: inherit;
+        background-color: rgb(67, 158, 219);
+    } 
+} */
+
+/* section{
+    height: 525px;
+    width: 1210px;
+}
+main{
+
+    height: 150px;
+    width: 150px;
+    border: 2px solid orange;
+    animation-name: change;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+@keyframes change {
+    
+    0%{
+        scale: 1;
+        background-color: yellow;
+        position: relative;
+        left: 0;
+        top:0;
+    }25%{
+        scale: 1;
+        background-color: blue;
+        position: relative;
+        left: 100%;
+        top:0;        
+    }50%{
+        scale:1;
+        background-color: rgb(245, 34, 1);
+        position: relative;
+        left: 100%;
+        top: 100%;
+    }75%{
+        scale:1;
+        background-color: rgb(226, 13, 197);
+        position: relative;
+        left: 0;
+        top:100%;
+    }100%{
+        scale:1;
+        background-color: rgb(13, 226, 45);
+        position: relative;
+        left: 0;
+        top:0;
+    }
+} */
+
+.slidercontainer{
+
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.sliderimages{
+    height: inherit;
+    width: inherit;
+    display: flex;
+    animation: slide 10s ease-in-out 0s infinite normal;
+}
+img{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+@keyframes slide {
+    0%{
+        transform: translateX(0%);
+    }25%{
+        transform: translateX(-100%);
+    }50%{
+        transform: translateX(-200%);
+    }75%{
+        transform: translateX(-300%);
+    }100%{
+        transform: translateX(0%);
+    }
+}

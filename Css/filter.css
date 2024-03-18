@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    height: 170px;
+    width: 300px;
+    border: 2px solid;
+    /* filter: blur(10px); */
+    /* filter: brightness(0%); */
+    /* filter: drop-shadow(-2px -3px 8px red); */
+    
+    /* filter : grayscale value is : 0-1  */
+    /* filter: grayscale(0.8); */
+    
+    /* value is : 0-1  */
+    filter: opacity(0); 
+}
+img:hover{
+    /* filter: blur(0px); */
+    /* filter: brightness(100%); */
+    filter: drop-shadow(2px 3px 8px red);
+    /* filter: grayscale(0); */
+    /* filter: opacity(0.8); */
+}

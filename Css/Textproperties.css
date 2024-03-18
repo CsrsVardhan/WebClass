@@ -1,0 +1,50 @@
+/* TEXT PROPERTIES: */
+
+/* text-align, text-align-last, letter-spacing, word-spacing, (text-decoration-line, text-decoration-style, text-decoration-color)text-decoration,text-decoration-thickness, text-transform, text-indent, line-height, text-shadow  */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: cornsilk;
+    background-color: black;
+    text-align: left;
+    text-align: right;
+    text-align: center;
+    letter-spacing: 15px;
+    text-decoration-line: overline;
+    text-decoration-color: rgb(238, 10, 10);
+    text-shadow: 7px 2px 3px red;
+}
+p{
+    text-align: justify;
+    /* text-align-last: left; */
+    /* text-align-last: right; */
+    text-align-last: center;
+    word-spacing: 20px;;
+    /* text-decoration-line: overline; */
+    /* text-decoration-line: line-through; */
+    text-decoration-line: underline;
+    text-decoration-color: rgb(243, 6, 6);
+    /* text-decoration-style: dotted; */
+    /* text-decoration-style: double; */
+    /* text-decoration-style: dashed; */
+    /* text-decoration-style: solid; */
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+    text-decoration: dashed underline red;
+    /* text-transform: lowercase; */
+    /* text-transform: uppercase; */
+    text-transform: capitalize;
+    line-height: 30px;
+    text-indent: 70px;
+}
+a{
+    /* text-decoration-line: none; */
+    text-decoration: underline wavy red;
+    text-decoration: none;
+}
+

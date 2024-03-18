@@ -1,0 +1,53 @@
+/* CASE:0 */
+/* [type]{
+    background-color: green;
+} */
+
+/* CASE:1 */
+
+    /* input[type]{
+        background-color: red;
+    } */
+
+/* CASE:2 */
+
+/* input[type="email"]{
+    background-color: blue;
+} */
+
+/* CASE:3 */
+
+/* p[class~="hello"]{
+
+    color:white;
+    background-color: navy;
+} */
+
+/* CASE:4 */
+
+/* p[class|="hello"]{
+    
+    color:red;
+    background-color: yellowgreen;
+} */
+
+/* CASE:5 */
+
+/* p[class^="hello"]{
+    color:white;
+    background-color: red;
+} */
+
+/* CASE:6 */
+
+/* p[class$="hello"]{
+    color:white;
+    background-color: green;
+} */
+
+/* CASE:7 */
+
+p[class*="hello"]{
+
+    background-color:mediumvioletred;
+}

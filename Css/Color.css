@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: rgb(64, 182, 28);
+    background-color: rgb(224, 238, 22);
+}
+div{
+    height: 200px;
+    width: 200px;
+    color: rgb(0, 0, 0);
+   background-color: rgba(8, 236, 103,0.4);
+}

@@ -1,0 +1,29 @@
+/* decendent selector */
+
+/* header p{
+    color: chartreuse;
+}
+h5 p{
+    color: red;
+} */
+
+/* child selector */
+
+/* section>p{
+    background: yellowgreen;
+} */
+
+/*Adjacent sibling selector */
+
+/* header+h2{
+    background-color: burlywood;
+}
+footer+p{
+    background-color: blueviolet;
+} */
+
+/* General sibling selector */
+
+section~p{
+    background-color: greenyellow;
+}

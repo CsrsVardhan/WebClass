@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* background-color, background-image, background-repeat, background-position, background-attachment, background-size  */
+/* background-image:url("") */
+/* background-repeat:repeat-x, repeat-y, no-repeat */
+/* background-position:x-axis,y-axis; in x&y-axis we have to give the values or we have to give the values like right, left, top, bottom, */
+/* ba */
+body{
+    height: 100vh;
+    background-color: rgba(21,64,79,0.5);
+    background-image: url("./klipartz.com.png");
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    background-repeat: no-repeat;
+    /* background-position: right; */
+    /* background-position: left; */
+    /* background-position: top; */
+    /* background-position: bottom; */
+    /* background-position: top right; */
+    /* background-position: top left; */
+    /* background-position: bottom right; */
+    /* background-position: bottom left; */
+    background-position:center; /* or background-position:center center; */
+    /* background-attachment: scroll; */
+    background-attachment: fixed;
+    /* background-size: 900px 1000px; */
+    /* background-size: 700px auto; */
+    /* background-size: cover; */
+    background-size: contain;
+    background:rgba(16, 158, 11, 0.5) url("./klipartz.com.png") no-repeat fixed center;
+}
+img:hover{
+    filter: drop-shadow(20px 20px 50px red);
+}

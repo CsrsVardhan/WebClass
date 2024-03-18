@@ -1,0 +1,35 @@
+/* FONT PROPERTIES */
+
+/* font-style, font-size, font-weight, font-family */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: white;
+    background-color: green; 
+    word-spacing: 20px;
+    text-align:center;
+    /* font-style: normal; */
+    /* font-style: italic; */
+    /* font-style: oblique; */
+    font-size: 40px;
+    font-weight:500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Rubik Broken Fax';
+    font-family: 'Pacifico';
+    font-family: 'Great Vibes';
+}
+button{
+    border-style: none;
+    border-radius: 10px;
+    padding: 20px 20px;
+}
+button:hover{
+    color: white;
+    background-color: yellowgreen;
+    font-weight: 700;
+    box-shadow: 7px 5px 10px red;
+}

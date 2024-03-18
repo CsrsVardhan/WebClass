@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header>h1{
+    width:100vw;
+    text-align: center;
+    text-shadow: 4px 0px 5px black;
+}
+header>h1::selection{
+    color: chartreuse;
+    background-color: chocolate;
+}
+/* section{
+    border: 2px solid black;
+} */
+nav{
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    background-color: rgb(246, 243, 165);
+    position: sticky;
+    top: 0px;
+}
+img{
+    height: 30px;
+    width: 60px;
+}
+#img{
+    display: flex;
+    flex-basis: 8%;
+    justify-content: center;
+    align-items: center;
+}
+#anchor{
+    display: flex;
+    flex-basis: 72%;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+#btn{
+    display: flex;
+    flex-basis: 20%;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+}
+button{
+    color: antiquewhite;
+    background-color: navy;
+    border-radius: 8px;
+    border:none;
+    padding: 9px;
+}
+button:active{
+    color:wheat;
+    background-color: red;
+    box-shadow: 0px 0px 5px red;
+    font-weight: 600;
+}
+#signup{
+    margin-right: 20px;
+
+}
+a{
+    font-size: 20px;
+    color:red;
+    text-decoration:none;
+}
+details{
+    font-size: 20px;
+    color:red;
+    text-decoration:none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+}
+details>a{
+    font-size: 15px;
+    color:red;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration: underline blue;
+}
+a:active{
+    color:black;
+    text-decoration: underline red;
+    text-shadow: 1px 0px 3px tomato;
+}
+/* margin auto */
+div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 0 auto;
+}
